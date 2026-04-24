@@ -15,10 +15,10 @@ function getBooksBorrowedCount(books) {
 // Tbis is a helper function that's called by other functions inside this file. You don't have to edit it.
 function _sortObjectByValues(obj) {
   const keys = Object.keys(obj);
-  return keys.sort((keyA, keyB) => {
-    if (obj[keyA] > obj[keyB]) {
+  return keys.sort((keyAC, keyBD) => {
+    if (obj[keyAC] > obj[keyBD]) {
       return -1;
-    } else if (obj[keyB] > obj[keyA]) {
+    } else if (obj[keyBD] > obj[keyAC]) {
       return 1;
     } else {
       return 0;
